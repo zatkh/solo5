@@ -29,3 +29,4 @@ if [ -n "${SURF_RUN_TESTS}" ]; then
     ${SURF_SUDO} tests/setup-tests.sh
     ${SURF_SUDO} tests/run-tests.sh
 fi
+# X
