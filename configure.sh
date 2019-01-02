@@ -159,6 +159,7 @@ case $(uname -s) in
         BUILD_VIRTIO="yes"
         BUILD_MUEN="yes"
         BUILD_GENODE="yes"
+        BUILD_SPT="no"
         ;;
     OpenBSD)
         # On OpenBSD/clang we use -nostdlibinc which gives us access to the
@@ -200,6 +201,7 @@ case $(uname -s) in
         BUILD_VIRTIO="yes"
         BUILD_MUEN="yes"
         BUILD_GENODE="yes"
+        BUILD_SPT="no"
         ;;
     *)
         die "Unsupported build OS: $(uname -s)"
